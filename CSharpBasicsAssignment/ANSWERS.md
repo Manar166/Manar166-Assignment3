@@ -1,4 +1,5 @@
- Paste your .csproj contents and confirm each of the four properties mentioned in Part A is present.
+``` text 
+Paste your .csproj contents and confirm each of the four properties mentioned in Part A is present.
 
  <Project Sdk="Microsoft.NET.Sdk">
 
@@ -29,3 +30,4 @@
  return values, exceptions,
  and other metadata that can be useful for developers using your code.
  
+```
