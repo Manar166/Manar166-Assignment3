@@ -1,4 +1,8 @@
-﻿namespace CSharpBasicsAssignment;
+﻿using System.Collections;
+using System.Runtime.InteropServices;
+using System.Security.Cryptography.X509Certificates;
+
+namespace CSharpBasicsAssignment;
 
 /*
 .csproj:
@@ -38,6 +42,8 @@ class Program
     {
         Console.WriteLine("=== PART A: Project & Structure ===");
         RunTypesDemo();
+        Console.WriteLine("=== PART C: Value VS ReferenceType ===");
+        RunValueVsReferenceDemo();
 
 
 
@@ -136,8 +142,94 @@ class Program
 
     }
 
+    static void RunValueVsReferenceDemo()
+    {
+        Point p1 = new Point() { X = 1, Y = 2 };
+        Point p2 = p1;
+        p1.X = 99;
+        Console.WriteLine($"p1.X={p1.X}"); // prints 99
+                                           // struct is a value type, so when we assign p1 to p2,
+                                           // a new copy of the data is created in memory.
+
+        Order o1 = new Order
+        {
+            OrderId = 101,
+            CustomerName = "Manar",
+            Quantity = 2,
+            UnitPrice = 50.00m,
+            IsPaid = false,
+            DiscountPercent = 10.0,
+            ShippingCity = "Cairo",
+            Priority = 'H',
+            ItemCode = 9876543210L
+        };
+
+        o1.CalculateTotal();
+        o1.PrintSummary();
+        Order o2 = o1;
+        o2.IsPaid=true;
+        Console.WriteLine($"o1.IsPaid={o1.IsPaid}");  // prints true
+        Console.WriteLine($"o2.IsPaid={o2.IsPaid}"); // prints true
+
+        // class is a reference type, so when we assign o1 to o2,
+        // both variables point to the same object in memory(heap).
+
+        object boxedOrder = o1;
+
+        Order o3 = (Order)boxedOrder;
+        Console.WriteLine($"o1 and o3 are the same instance: {object.ReferenceEquals(o1,o3)}");
+        o2.PrintSummary();
+
+        /* 1- where each kind of data lives(stack vs.heap)?
+         * stack: value types like structs and premitive types 
+         * heap:reference types like classes and objects 
+         * 2- what "assignment" actually copies for a value type vs. a reference type?
+         * for value types :copies the actual data 
+         * for reference type:copies the address of the object in heap ,
+         * so both variables points tonthe same object in heap
+         * 3-why storing a reference type inside an object variable does not create a new object ?
+         *  because the object variable is just a reference to the same object in heap,
+         *  it just copis the address of the object in heap to the object variable
+
+        */
+
+
+    }
+
 
 }
+
+struct Point
+{
+
+    public int X;
+    public int Y;
+}
+
+class Order
+{
+    public int OrderId;
+    public string CustomerName;
+    public int Quantity;
+    public decimal UnitPrice;
+    public decimal TotalPrice;
+    public bool IsPaid;
+    public double DiscountPercent;
+    public string ShippingCity;
+    public char Priority;
+    public long ItemCode;
+
+    public void CalculateTotal() 
+    { 
+        TotalPrice=( Quantity * UnitPrice )*(decimal)(1 -DiscountPercent / 100);
+    }
+    public void PrintSummary() 
+    {
+        Console.WriteLine($"Order #{OrderId} | Customer: {CustomerName} | Total:){TotalPrice:F2} | Paid: {IsPaid}");
+    }
+}
+
+
 
 
 

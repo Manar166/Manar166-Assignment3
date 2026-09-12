@@ -18,6 +18,10 @@
           "Children": [
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             },
             {
@@ -25,18 +29,14 @@
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Simulation\\Assignmenet 3\\Manar166-Assignment3\\CSharpBasicsAssignment\\Program.cs",
               "RelativeDocumentMoniker": "CSharpBasicsAssignment\\Program.cs",
-              "ToolTip": "D:\\Simulation\\Assignmenet 3\\Manar166-Assignment3\\CSharpBasicsAssignment\\Program.cs",
-              "RelativeToolTip": "CSharpBasicsAssignment\\Program.cs",
-              "ViewState": "AgIAAIAAAAAAAAAAAAAowI8AAAAAAAAAAAAAAA==",
+              "ToolTip": "D:\\Simulation\\Assignmenet 3\\Manar166-Assignment3\\CSharpBasicsAssignment\\Program.cs*",
+              "RelativeToolTip": "CSharpBasicsAssignment\\Program.cs*",
+              "ViewState": "AgIAAKMAAAAAAAAAAAAAALIAAABcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-11T10:26:21.23Z",
               "EditorCaption": ""
