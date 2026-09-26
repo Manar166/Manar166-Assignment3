@@ -29,5 +29,15 @@ Paste your .csproj contents and confirm each of the four properties mentioned in
  2- When you want to include information about parameters, 
  return values, exceptions,
  and other metadata that can be useful for developers using your code.
+
+
+ Why does C# have no true global variables, and what's the closest equivalent?
+
+becayse C# is object orianted language ,every variable must be in class 
+and global variables vailoate the encapsulation principle of oop
+
+he closest equivalent is a public static field inside a static class 
+
+
  
 ```
