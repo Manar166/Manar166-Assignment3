@@ -268,9 +268,9 @@ class Program
     {
         int a = 12;  // Binary: 1100
         int b = 10;  // Binary: 1010
-        Console.WriteLine($"a & b = {a & b}");   // Bitwise AND
-        Console.WriteLine($"a | b = {a | b}");   // Bitwise OR
-        Console.WriteLine($"a ^ b = {a ^ b}");   // Bitwise XOR
+        Console.WriteLine($"a & b = {a & b}");   // Bitwise AND  8
+        Console.WriteLine($"a | b = {a | b}");   // Bitwise OR   14
+        Console.WriteLine($"a ^ b = {a ^ b}");   // Bitwise XOR  6
 
         //& operator compares each bit of the first operand to the corresponding bit of the second operand.
         //If both bits are 1, the corresponding result bit is set to 1. Otherwise, it is set to 0. 

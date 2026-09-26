@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Simulation\\Assignmenet 3\\Manar166-Assignment3\\CSharpBasicsAssignment\\CSharpBasicsAssignment.csproj",
+      "projectUniqueName": "D:\\Simulation\\C#\\Assignmenet 3\\Manar166-Assignment3\\CSharpBasicsAssignment\\CSharpBasicsAssignment.csproj",
       "projectName": "CSharpBasicsAssignment",
-      "projectPath": "D:\\Simulation\\Assignmenet 3\\Manar166-Assignment3\\CSharpBasicsAssignment\\CSharpBasicsAssignment.csproj",
+      "projectPath": "D:\\Simulation\\C#\\Assignmenet 3\\Manar166-Assignment3\\CSharpBasicsAssignment\\CSharpBasicsAssignment.csproj",
       "packagesPath": "C:\\Users\\BADR&MANAR\\.nuget\\packages\\",
-      "outputPath": "D:\\Simulation\\Assignmenet 3\\Manar166-Assignment3\\CSharpBasicsAssignment\\obj\\",
+      "outputPath": "D:\\Simulation\\C#\\Assignmenet 3\\Manar166-Assignment3\\CSharpBasicsAssignment\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
