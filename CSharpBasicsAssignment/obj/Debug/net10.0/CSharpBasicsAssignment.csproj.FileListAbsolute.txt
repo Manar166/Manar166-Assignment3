@@ -1,0 +1,16 @@
+D:\Simulation\Assignmenet 3\Manar166-Assignment3\CSharpBasicsAssignment\bin\Debug\net10.0\CSharpBasicsAssignment.exe
+D:\Simulation\Assignmenet 3\Manar166-Assignment3\CSharpBasicsAssignment\bin\Debug\net10.0\CSharpBasicsAssignment.deps.json
+D:\Simulation\Assignmenet 3\Manar166-Assignment3\CSharpBasicsAssignment\bin\Debug\net10.0\CSharpBasicsAssignment.runtimeconfig.json
+D:\Simulation\Assignmenet 3\Manar166-Assignment3\CSharpBasicsAssignment\bin\Debug\net10.0\CSharpBasicsAssignment.dll
+D:\Simulation\Assignmenet 3\Manar166-Assignment3\CSharpBasicsAssignment\bin\Debug\net10.0\CSharpBasicsAssignment.pdb
+D:\Simulation\Assignmenet 3\Manar166-Assignment3\CSharpBasicsAssignment\obj\Debug\net10.0\CSharpBasicsAssignment.GeneratedMSBuildEditorConfig.editorconfig
+D:\Simulation\Assignmenet 3\Manar166-Assignment3\CSharpBasicsAssignment\obj\Debug\net10.0\CSharpBasicsAssignment.AssemblyInfoInputs.cache
+D:\Simulation\Assignmenet 3\Manar166-Assignment3\CSharpBasicsAssignment\obj\Debug\net10.0\CSharpBasicsAssignment.AssemblyInfo.cs
+D:\Simulation\Assignmenet 3\Manar166-Assignment3\CSharpBasicsAssignment\obj\Debug\net10.0\CSharpBasicsAssignment.csproj.CoreCompileInputs.cache
+D:\Simulation\Assignmenet 3\Manar166-Assignment3\CSharpBasicsAssignment\obj\Debug\net10.0\CSharpBasicsAssignment.sourcelink.json
+D:\Simulation\Assignmenet 3\Manar166-Assignment3\CSharpBasicsAssignment\obj\Debug\net10.0\CSharpBasicsAssignment.dll
+D:\Simulation\Assignmenet 3\Manar166-Assignment3\CSharpBasicsAssignment\obj\Debug\net10.0\refint\CSharpBasicsAssignment.dll
+D:\Simulation\Assignmenet 3\Manar166-Assignment3\CSharpBasicsAssignment\obj\Debug\net10.0\CSharpBasicsAssignment.pdb
+D:\Simulation\Assignmenet 3\Manar166-Assignment3\CSharpBasicsAssignment\obj\Debug\net10.0\CSharpBasicsAssignment.genruntimeconfig.cache
+D:\Simulation\Assignmenet 3\Manar166-Assignment3\CSharpBasicsAssignment\obj\Debug\net10.0\ref\CSharpBasicsAssignment.dll
+D:\Simulation\Assignmenet 3\Manar166-Assignment3\CSharpBasicsAssignment\obj\Debug\net10.0\CSharpBa.D9D76A20.Up2Date
